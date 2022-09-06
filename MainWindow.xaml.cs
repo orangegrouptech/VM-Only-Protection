@@ -29,7 +29,7 @@ namespace VMOnlyProtection
                         }
                         else
                         {
-                            MessageBox.Show("You are not using a Virtual Machine, so you may not proceed. If you have been infected on your host, contact orangemanagementcorpn@gmail.com to remove the malware.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                            MessageBox.Show("You are not using a Virtual Machine, so you may not proceed.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                             Process.GetCurrentProcess().Kill();
                         }
                     }
